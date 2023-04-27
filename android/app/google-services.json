@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764410544019",
+    "project_id": "myloginapplication-ff093",
+    "storage_bucket": "myloginapplication-ff093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764410544019:android:5f58cb53fc2c62d03ff266",
+        "android_client_info": {
+          "package_name": "com.example.rewdee_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764410544019-qdp035jkpvh1bqdcp04irreif4o1gn6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt9mVjj6IOsxsGvZwaIMQwM1LFbJHHF_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764410544019-qdp035jkpvh1bqdcp04irreif4o1gn6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
