@@ -1,16 +1,18 @@
-# rewdee_app
+# PinDee App
+**A Flutter project for adding your favourite place with your memorable picture and the unforgetable location!**
 
-A new Flutter project.
+## How to run the program?
 
-## Getting Started
+Before running the program
+- Install Flutter Project: command `flutter pub get`
 
-This project is a starting point for a Flutter application.
+After installed the program
+- Run your emulator (We use Android Studio *Virtual Device Manager* to run the emulator)
+- Go `lib` folder, and then navigate to `main.dart`
+- Press **"Run with debugging"** (in the case of running in VS Code)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Members
+- **6388012 Rujiphart Charatvaraphan**
+- **6388185 Bunradar Chatchaiyadech**
