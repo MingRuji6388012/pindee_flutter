@@ -29,12 +29,12 @@ class _LocationInputState extends State<LocationInput> {
     }
     final lat = _pickedLocation!.latitude;
     final lng = _pickedLocation!.longitude;
-    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lng&key=AIzaSyClG5f0XzItNkaxGdcN4qWaaxZafARjoVw';
+    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C$lat,$lng&key=YOURKEY';
   }
 
   Future<void> _savePlace(double latitude, double longitude) async{
      final url = Uri.parse(
-      'https://maps.googleapis.com/maps/api/geocode/json?latlng=$latitude,$longitude&key=AIzaSyClG5f0XzItNkaxGdcN4qWaaxZafARjoVw');
+      'https://maps.googleapis.com/maps/api/geocode/json?latlng=$latitude,$longitude&key=YOURKEY');
     final response = await http.get(url);
     final resData = json.decode(response.body);
     final address = resData['results'][0]['formatted_address'];
@@ -67,7 +67,7 @@ class _LocationInputState extends State<LocationInput> {
     }
 
     permissionGranted = await location.hasPermission();
-    if (permissionGranted == PermissionStatus.denied) {
+    if (permissionGranted == PermissionStatus.decnied) {
       permissionGranted = await location.requestPermission();
       if (permissionGranted != PermissionStatus.granted) {
         return;
