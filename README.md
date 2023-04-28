@@ -17,7 +17,7 @@
 
 ### After installed the program
 - Run your emulator (We use Android Studio *Virtual Device Manager* to run the emulator)
-- Go `lib` folder, and then navigate to `main.dart`
+- Go to `lib` folder, and then navigate to `main.dart`
 - Press **"Run with debugging"** (in the case of running in VS Code)
 
 
