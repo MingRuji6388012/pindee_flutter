@@ -1,7 +1,7 @@
-# PinDee App
+# PinDee App📌
 **A Flutter project for adding your favourite place with your memorable picture and the unforgetable location!**
 
-## Members
+## Members 👥
 - **6388012 Rujiphart Charatvaraphan**
 - **6388185 Bunradar Chatchaiyadech**
 
@@ -9,7 +9,7 @@
 
 
 
-## How to run the program?
+## How to run the program? 🖥️
 
 ### Before running the program
 - Install Flutter Project: command `flutter pub get`
